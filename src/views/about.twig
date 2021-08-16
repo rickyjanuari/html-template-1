@@ -229,37 +229,13 @@
 			<!-- Experience & Education Ends -->
 		</div>
 	</section>
-
-	<!-- SCRIPT -->
-	<script src="plugins/js/TweenMax.min.js"></script>
-	<script src="plugins/js/vue.min.js"></script>
 	<script id="stat-circle" type="x-template">
 		<svg class="stat-circle" width="120" viewBox="0 0 20 20">
-		<circle class="bg" cx="10" cy="10" r="8"/></circle>
-		<circle class="progress" cx="10" cy="10" r="8" :data-percentage="percentage"/></circle>
-		<text x="50%" y="55%">{{ percentage }}%</text>
+			<circle class="bg" cx="10" cy="10" r="8"/></circle>
+			<circle class="progress" cx="10" cy="10" r="8" :data-percentage="percentage"/></circle>
+			<text x="50%" y="55%" v-text="percentage">%</text>
 		</svg>
 	</script>
-	<script>
-		window.onload = function () {
-			var $statCircle = document.querySelectorAll(".stat-circle circle");
-			for (var i = 0; i < $statCircle.length; i++) {
-				var p = parseFloat($statCircle[i].dataset.percentage);
-				var off = -51 - ((51 / 100) * p);
-				new TweenMax.to($statCircle[i], .4,
-					{
-						strokeDashoffset: off
-					});
-			}
-		}
-		Vue.component("stat-circle",
-			{
-				template: "#stat-circle",
-				props: ["percentage"]
-			});
-		new Vue(
-		{
-			el: "#skill"
-		});
-	</script>
+
+
 {% endblock %}

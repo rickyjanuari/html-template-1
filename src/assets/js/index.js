@@ -38,6 +38,7 @@ window.addEventListener('load', function () {
 
 document.querySelector('.revealator-delay1').classList.add("no-transform")
 
+// BLOG
 var url = "data/portfolio.json"
 new Vue({
 	el: "#grid",
@@ -99,6 +100,7 @@ new Vue({
 	}
 })
 
+// PORTFOLIO
 var url = "data/blog.json"
 new Vue({
 	el: "#blog",
@@ -147,4 +149,27 @@ new Vue({
 		}
 	}
 })
+
+// ABOUT US
+
+window.onload = function () {
+	var $statCircle = document.querySelectorAll(".stat-circle circle");
+	for (var i = 0; i < $statCircle.length; i++) {
+		var p = parseFloat($statCircle[i].dataset.percentage);
+		var off = -51 - ((51 / 100) * p);
+		new TweenMax.to($statCircle[i], .4,
+			{
+				strokeDashoffset: off
+			});
+	}
+}
+Vue.component("stat-circle",
+	{
+		template: "#stat-circle",
+		props: ["percentage"]
+	});
+new Vue(
+{
+	el: "#skill"
+});
 
