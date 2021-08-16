@@ -107,6 +107,8 @@
 		<span class="title-bg">posts</span>
 	</section>
 
+
+
 	<!-- BLOG GRID -->
 	<section id="blog" class="main-content revealator-slideup revealator-once revealator-delay1 no-transform revealator-partially-above revealator-within">
 		<div class="container">
@@ -122,11 +124,10 @@
 				</div>
 				<div class="post-content">
 				<div class="entry-header">
-					<h3><a href="blog-post.html"></a></h3>
+					<h3><a href="blog-post.html" v-text="post.title"></a></h3>
 				</div>
 				<div class="entry-content open-sans-font">
-					<p>
-					</p>
+					<p v-text="post.excerpt"></p>
 				</div>
 				</div>
 			</article>
@@ -137,7 +138,7 @@
 			<nav aria-label="Page navigation example">
 				<ul class="pagination justify-content-center mb-0">
 				<li class="page-item" v-if="page != 1" @click="page--"><a class="page-link"><<</a></li>
-				<li class="page-item" v-for="pageNumber in pages.slice(page-1, page+5)" @click="page = pageNumber"><a class="page-link"></a></li>
+				<li class="page-item" v-for="pageNumber in pages.slice(page-1, page+5)" @click="page = pageNumber"><a class="page-link" v-text="pageNumber"></a></li>
 				<li class="page-item" @click="page++" v-if="page < pages.length"><a class="page-link">>></a></li>
 				</ul>
 			</nav>
@@ -148,6 +149,7 @@
 		</div>
 
 	</section>
+
     </main>
 
     <!-- FOOTER -->
@@ -156,7 +158,6 @@
     
     <script src="plugins/js/vue.min.js"></script>
 	<script src="plugins/js/axios.min.js"></script>
-	<script src="plugins/js/blog.js"></script>
 	<script src="assets/js/main.min.js"></script>
 
 

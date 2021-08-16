@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="assets/css/main.min.css">
 
     </head>
-	<body class="blog blog-post">
+	<body class="portfolio at-top">
     <!-- HEADER -->
     <header
 	class="header" id="navbar-collapse-toggle">
@@ -118,7 +118,7 @@
 						@click="itemClicked(item)">
 						<figure>
 							<img v-bind:src="item.gallery[0]" alt="Portolio Image">
-							<div><span> </span></div>
+							<div><span v-text="item.title"></span></div>
 						</figure>
 					</li>
 					<!-- Portfolio Item Ends -->
@@ -135,24 +135,24 @@
 						v-if="index === currentActiveSlide">
                         <figure>
                             <figcaption>
-                                <h3></h3>
+                                <h3 v-text="item.title"></h3>
                                 <div class="row open-sans-font">
                                     <div class="col-12 col-sm-6 mb-2">
                                         <i class="fa fa-file-text-o pr-2"></i><span class="project-label">Project
-                                        </span>: <span class="ft-wt-600 uppercase"></span>
+                                        </span>: <span class="ft-wt-600 uppercase" v-text="item.project"></span>
                                     </div>
                                     <div class="col-12 col-sm-6 mb-2">
                                         <i class="fa fa-user-o pr-2"></i><span class="project-label">Client </span>:
-                                        <span class="ft-wt-600 uppercase"></span>
+                                        <span class="ft-wt-600 uppercase" v-text="item.client"></span>
                                     </div>
                                     <div class="col-12 col-sm-6 mb-2">
                                         <i class="fa fa-code pr-2"></i><span class="project-label">Langages </span>:
-                                        <span class="ft-wt-600 uppercase"></span>
+                                        <span class="ft-wt-600 uppercase" v-text="item.langages"></span>
                                     </div>
                                     <div class="col-12 col-sm-6 mb-2">
                                         <i class="fa fa-external-link pr-2"></i><span class="project-label">Preview
                                         </span>: <span class="ft-wt-600 uppercase"><a href="#"
-                                                target="_blank"></a></span>
+                                                target="_blank" v-text="item.preview"></a></span>
                                     </div>
                                 </div>
                             </figcaption>
@@ -185,7 +185,6 @@
     
     <script src="plugins/js/vue.min.js"></script>
 	<script src="plugins/js/axios.min.js"></script>
-	<script src="plugins/js/blog.js"></script>
 	<script src="assets/js/main.min.js"></script>
 
 
