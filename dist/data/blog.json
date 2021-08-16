@@ -1,0 +1,164 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "How to Own Your Audience by Creating an Email List",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-1.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 2,
+      "title": "Top 10 Toolkits for Deep Learning in 2020",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-2.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 3,
+      "title": "Everything You Need to Know About Web Accessibility",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-3.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 4,
+      "title": "How to Inject Humor & Comedy Into Your Brand",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-4.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Women in Web Design: How To Achieve Success",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-5.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },
+    {
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    },{
+      "id": 5,
+      "title": "Evergreen versus topical content: An overview",
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...",
+      "image": "assets/img/blog/blog-post-6.jpg",
+      "author": "steve",
+      "date": "9 January 2017",
+      "category": "wordpress, business, economy, design",
+      "description": "www.themeforest.net"
+    }
+
+  ]
+}

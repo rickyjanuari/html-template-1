@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+    {% include "../includes/head.twig" %}
+    </head>
+	<body class="{% block body_class %}{% endblock %}">
+    <!-- HEADER -->
+    {% include "../includes/header.twig" %}
+
+    <!-- MAIN -->
+    <main>
+		{% include "../blocks/block-preloader.twig" %}
+		{% block content %}
+
+		{% endblock %}
+    </main>
+
+    <!-- FOOTER -->
+    {% include "../includes/footer.twig" %}
+
+    <!-- SCRIPTS -->
+    {% include "../includes/scripts.twig" %}
+
+</body>
+</html>
+
+<!doctype html>

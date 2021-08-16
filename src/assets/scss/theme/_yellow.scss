@@ -1,0 +1,265 @@
+/* =================================================================== */
+/* YELLOW #ffb400
+====================================================================== */
+.home {
+	h1 {
+		color: #ffb400;
+	}
+	.home-details {
+		h1 {
+			&:before {
+				background-color: #ffb400;
+			}
+		}
+	}
+	.color-block {
+		background-color: #ffb400;
+	}
+}
+.about {
+	.box-stats {
+		h3 {
+			color: #ffb400;
+		}
+	}
+	.resume-box {
+		.icon {
+			background-color: #ffb400;
+		}
+	}
+}
+.title-section {
+	h1 {
+		span {
+			color: #ffb400;
+		}
+	}
+	hr {
+		background-color: #ffb400;
+	}
+}
+#menu {
+	li.active {
+		a {
+			color: #ffb400;
+		}
+	}
+}
+body.light {
+	#menu {
+		li.active {
+			a {
+				color: #ffb400;
+			}
+		}
+	}
+	.header {
+		ul.icon-menu {
+			li.icon-box.active {
+				background-color: #ffb400;
+			}
+			li.icon-box {
+				&:hover {
+					background-color: #ffb400;
+				}
+			}
+		}
+	}
+}
+.blog {
+	.post-container {
+		&:hover {
+			.post-content {
+				.entry-header {
+					h3 {
+						a {
+							color: #ffb400;
+						}
+					}
+				}
+			}
+		}
+	}
+	.post-content {
+		.entry-header {
+			h3 {
+				a {
+					&:hover {
+						color: #ffb400;
+					}
+				}
+			}
+		}
+	}
+	.page-link {
+		&:hover {
+			background-color: #ffb400;
+			border: 1px solid #ffb400;
+		}
+	}
+	.page-item.active {
+		.page-link {
+			background-color: #ffb400;
+			border: 1px solid #ffb400;
+		}
+	}
+	.post-thumb {
+		border-bottom: 5px solid #ffb400;
+	}
+}
+.contact {
+	.custom-span-contact {
+		i {
+			color: #ffb400;
+		}
+	}
+	ul.social {
+		li {
+			a {
+				&:hover {
+					background-color: #ffb400;
+				}
+			}
+		}
+	}
+	.contactform {
+		input[type=text] {
+			&:focus {
+				border: 1px solid #ffb400;
+			}
+		}
+		input[type=email] {
+			&:focus {
+				border: 1px solid #ffb400;
+			}
+		}
+		textarea {
+			&:focus {
+				border: 1px solid #ffb400;
+			}
+		}
+	}
+}
+.portfolio {
+	.slideshow {
+		figcaption {
+			h3 {
+				color: #ffb400;
+			}
+		}
+		a {
+			color: #ffb400;
+		}
+		.carousel-indicators {
+			li.active {
+				background-color: #ffb400;
+			}
+		}
+	}
+	.grid {
+		figure {
+			&:hover {
+				figcaption {
+					color: #ffb400;
+				}
+			}
+		}
+		li {
+			figure {
+				div {
+					background-color: #ffb400;
+				}
+			}
+		}
+	}
+}
+.blog-post {
+	.meta {
+		i {
+			color: #ffb400;
+		}
+	}
+}
+body.light.contact {
+	ul.social {
+		li {
+			a {
+				&:hover {
+					background-color: #ffb400;
+				}
+			}
+		}
+	}
+	.contactform {
+		input[type=text] {
+			&:focus {
+				border: 1px solid #ffb400;
+			}
+		}
+		input[type=email] {
+			&:focus {
+				border: 1px solid #ffb400;
+			}
+		}
+		textarea {
+			&:focus {
+				border: 1px solid #ffb400;
+			}
+		}
+	}
+}
+.preloader {
+	.loader {
+		background-color: #ffb400;
+	}
+}
+body.light.blog {
+	.page-link {
+		&:hover {
+			background-color: #ffb400;
+			border: 1px solid #ffb400;
+		}
+	}
+	.page-item.active {
+		.page-link {
+			background-color: #ffb400;
+			border: 1px solid #ffb400;
+		}
+	}
+}
+.header {
+	ul.icon-menu {
+		li.icon-box.active {
+			background-color: #ffb400;
+		}
+		li.icon-box {
+			&:hover {
+				background-color: #ffb400;
+			}
+		}
+	}
+	.icon-box {
+		h2 {
+			background-color: #ffb400;
+		}
+	}
+}
+.btn {
+	background-color: #ffb400;
+}
+.button {
+	&:before {
+		background-color: #ffb400;
+	}
+	border: 1px solid #ffb400;
+}
+.button-icon {
+	background-color: #ffb400;
+}
+.stat-circle
+{
+  circle.progress
+  {
+    stroke: #ffb400;
+  }
+}

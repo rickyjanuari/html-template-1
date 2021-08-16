@@ -1,0 +1,33 @@
+.blog-post {
+	article {
+		max-width: 700px;
+		margin: 0 auto;
+		h1 {
+			font-weight: 600;
+			margin: 13px 0 20px;
+		}
+		img {
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+	}
+	.meta {
+		color: #eee;
+		font-size: 13px;
+		span {
+			padding-right: 15px;
+		}
+		i {
+			padding-right: 3px;
+		}
+	}
+}
+@media (max-width: 576px) {
+	.blog-post {
+		article {
+			h1 {
+				font-size: 25px;
+			}
+		}
+	}
+}
